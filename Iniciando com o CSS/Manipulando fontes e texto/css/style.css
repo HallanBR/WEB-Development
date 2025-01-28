@@ -1,0 +1,28 @@
+*{ /* Esse * serve para resetar os padroes do navegador */
+    margin: 0;
+    padding: 0;
+}
+
+.artigo{
+    background-color: rgb(0, 0, 0);
+    width: 1280px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.artigo h1{
+    color: blue;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.artigo p{
+    margin-top: 30px;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    line-height: 25px;
+    font-weight: bold;
+}

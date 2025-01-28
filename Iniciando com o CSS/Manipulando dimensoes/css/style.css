@@ -1,0 +1,32 @@
+*{ /* Esse * serve para resetar os padroes do navegador */
+    margin: 0; /*margem*/
+    padding: 0; /*preenchimento*/
+}
+
+html, body{
+    height: 100%; /*altura do elemento*/
+}
+
+.artigo{
+    background-color: rgb(0, 0, 0);
+    width: 100%; /*largura do elemento*/
+    height: auto; /*altura do elemento*/
+    text-align: center; /*alinha o texto ao centro*/
+}
+
+.artigo h1{
+    color: blue; /*cor do texto*/
+    font-size: 23px; /*tamanho da fonte*/
+    font-family: 'Times New Roman', Times, serif; /*fonte do texto*/
+    font-style: italic; /*estilo da fonte*/
+    font-weight: bold; /*negrito*/
+}
+
+.artigo p{
+    margin-top: 30px; /*margem superior*/
+    color: rgb(0, 255, 98); /*cor do texto*/
+    font-size: 17px; /*tamanho da fonte*/
+    font-family: Arial, sans-serif; /*fonte do texto*/
+    line-height: 25px;  /*espaçamento entre linhas*/
+    font-weight: bold; /*negrito*/
+}
