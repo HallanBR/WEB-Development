@@ -1,0 +1,26 @@
+*{
+    margin: 0; /*margem*/
+    padding: 0; /*preenchimento*/
+}
+
+html, body{ /*seleciona o html e o body*/
+    height: 100%; /*altura do elemento*/
+}
+
+.lista, .lista2{ /*seleciona a classe lista e lista2*/   
+    list-style-position: inside; /*posiciona o marcador dentro do elemento*/
+    list-style-type: circle; /*tipo de marcador*/
+}
+
+.lista li, .lista2 li{ /*seleciona a tag li*/
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.lista .produto3, .lista2 .produto3{ /*seleciona a classe produto3*/
+    font-weight: bold; /*negrito*/
+    color: blue; /*cor azul*/
+}
+
