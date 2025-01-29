@@ -1,0 +1,22 @@
+*{
+    margin: 0; /*margem*/
+    padding: 0; /*preenchimento*/
+}
+
+html, body{ /*seleciona o html e o body*/
+    height: 100%; /*altura do elemento*/
+}
+
+.header{
+    background-color: blue;
+    width: 100%; /*largura*/
+    height: 200px;
+}
+
+.article{
+    background-color: red; /*cor de fundo*/
+    margin: 0 auto; /*margem*/
+    width: 1280px; /*largura*/
+    height: 10%; /*altura*/
+    min-height: 50%; /*altura minima*/
+}
