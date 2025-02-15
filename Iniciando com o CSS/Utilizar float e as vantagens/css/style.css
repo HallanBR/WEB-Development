@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;       
+}
+.clear{
+    clear: both;        /* limpa o float */
+}
+
+.pai{
+    width: 1280px;      /* tamanho lateral do conteudo pai */
+    padding: 20px 0;   /* padding top e bottom */   
+    background: blue;
+    margin: 20px auto;     /* centraliza o conteudo */
+}
+
+.child{
+    box-sizing: border-box;     /* inclui a borda e o padding no tamanho do elemento */
+    margin-right: -4px;     /* corrige o espaçamento entre os elementos */
+    width: 640px;       /* tamanho lateral do conteudo filho */
+    height: 300px;      /* tamanho vertical do conteudo filho */    
+    background: red;
+    text-align: center;     /* alinha o texto ao centro */
+    font-size: 50px;        /* tamanho e cor da fonte */
+    padding: 50px 0;       /* padding top e bottom */
+    color: white;       /* cor do texto */
+    float: left;        /* alinha o conteudo filho a esquerda */
+    border: 1px solid black;    /* borda preta */
+}
