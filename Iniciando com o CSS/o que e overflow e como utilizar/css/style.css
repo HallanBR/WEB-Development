@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.box,.box2{
+    width: 300px;       /* Largura da caixa */
+    margin: 0 auto;     /* Centralizando a caixa */
+    background: rgb(104, 104, 104);       /* Cor de fundo da caixa */
+    /*overflow: hidden;*/       /* Esconde o conteúdo que ultrapassa a caixa */
+}
+
+.box p,.box2 p{
+    width: 100%;        /* Largura do parágrafo */
+}
+
+.box2{
+    background-color: red;      /* Cor de fundo da caixa */
+    margin-top: 10px;       /* Espaçamento entre as caixas */
+    display: block;     /* Exibe a caixa */
+}
