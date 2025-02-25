@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+ul{
+    display: flex;      /* Exibe os itens em linha */
+    list-style: none;       /* Remove a bolinha da lista */
+    text-align: center;     /* Centraliza o texto */
+}
+li{
+    padding: 10px;      /* Espaçamento interno */
+}
