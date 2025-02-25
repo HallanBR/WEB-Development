@@ -3,4 +3,4 @@
 3. Crie uma classe chamada destaque e aplique:
     a. Cor de texto amarela
     b. Negrito
-4. Aplique o ID a um titulo <h1> e a classe a um paragrafo <p>
+4. Aplique o ID a um titulo h1 e a classe a um paragrafo p
