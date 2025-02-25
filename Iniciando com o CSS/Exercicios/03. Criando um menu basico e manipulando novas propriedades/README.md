@@ -4,3 +4,4 @@
     <p>a. Remover marcadores das listas</p>
     <p>b. Tornar os itens horizontais</p>
     <p>c. Adicionar espacamento entre os itens</p>
+    <p>d. Adicionar cor de fundo ao passar o mouse sobre cada item</p>

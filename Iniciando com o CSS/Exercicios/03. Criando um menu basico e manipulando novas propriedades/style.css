@@ -15,3 +15,7 @@ ul{
 li{
     padding: 10px;      /* Espaçamento interno */
 }
+
+li:hover{
+    background-color: #ff0000;     /* Cor de fundo ao passar o mouse */
+}
