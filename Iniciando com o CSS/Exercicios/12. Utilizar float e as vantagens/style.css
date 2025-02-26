@@ -1,0 +1,27 @@
+.box1{
+    border: solid 2px black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;        /* Faz com que o elemento flutue para a esquerda */
+}
+.box2{
+    border: solid 2px black;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;        /* Faz com que o elemento flutue para a esquerda */
+}
+.box3{
+    border: solid 2px black;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    float: left;        /* Faz com que o elemento flutue para a esquerda */
+}
+.clear{
+    clear: both;        /* Limpa os floats */
+}
