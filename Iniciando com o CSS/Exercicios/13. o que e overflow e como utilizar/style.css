@@ -1,0 +1,8 @@
+.conteudo{
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    overflow: hidden;       /* oculta o conteúdo que ultrapassa o tamanho do elemento */
+    overflow: scroll;       /* exibe barras de rolagem */
+    overflow: auto;         /* exibe barras de rolagem apenas quando necessário */  
+}
