@@ -1,0 +1,5 @@
+img {
+    width: 300px;       /* largura definida como 300px*/
+    height: 200px;      /* altura definida como 200px*/
+    max-width: 90%;     /* largura máxima definida como 90%*/
+}
