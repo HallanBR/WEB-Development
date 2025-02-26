@@ -1,0 +1,20 @@
+.container{
+    display: flex;          /* A propriedade display: flex; faz com que o elemento se comporte como um container flexível, ou seja, ele permite que os elementos filhos sejam alinhados de forma mais fácil. */
+    justify-content: center; /* A propriedade justify-content: center; faz com que os elementos filhos sejam centralizados horizontalmente. */
+    gap: 10px;              /* A propriedade gap: 10px; faz com que os elementos filhos tenham um espaçamento de 10px entre eles. */
+}
+
+.box1 {
+    background-color: rgb(0, 47, 255);
+    width: 100px;           /* A propriedade width: 100px; define a largura do elemento. */
+    height: 100px;          /* A propriedade height: 100px; define a altura do elemento. */ 
+
+}
+
+.box2 {
+    background-color: rgb(255, 0, 0);
+    width: 100px;           /* A propriedade width: 100px; define a largura do elemento. */
+    height: 100px;          /* A propriedade height: 100px; define a altura do elemento. */ 
+
+}
+
