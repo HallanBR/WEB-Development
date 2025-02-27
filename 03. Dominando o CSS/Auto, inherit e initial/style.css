@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.box{
+    color: green;
+}
+span{
+    color: inherit;                 /* herda a cor do pai */
+    background-color: initial;      /* herda a cor de fundo do pai */
+}
+
+@media screen and (max-width: 768px){       /* se a tela for menor que 768px */
+    .box{
+        color: red;
+        height: auto;                   /* altura automática */
+    }
+    
+}
