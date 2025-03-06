@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+.bg{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+
+    background-color: red;                  /* Adiciona a cor de fundo */
+    background-image: url('./baixados.jpeg');   /* Adiciona a imagem de fundo */
+    /*background-size: 100% auto;        /*Defini a largura em 100% e a autora em automatica fazendo a imagem repetir*/
+    /*background-size: cover;            /* Cobrir a area do elemento */
+    background-size: contain;           /* Ajusta a imagem para caber no elemento */
+    background-repeat: no-repeat;       /* Nao repetir a imagem */
+    background-position: 50% 50%;        /* Centraliza a imagem */
+
+
+}
