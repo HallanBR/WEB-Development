@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+.bg{    
+    /*width: 100%;                            /* 100% da largura da tela */
+    /*height: 30vh;                           /* 30% da altura da tela */
+    /*margin: 0 auto;                         /* centraliza */
+    /*background-image: url('./baixados.jpeg');/* imagem de fundo */
+    /*background-color: yellowgreen;          /* cor de fundo */
+    /*background-size: cover;                 /* cobre todo o espaço */
+    /*background-repeat: no-repeat;           /* não repete a imagem */
+    /*background-position: center;            /* centraliza a imagem */
+    /*background-attachment: fixed;           /* fixa a imagem no lugar */
+
+}
+
+.box{
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;                     /* alinha o texto ao centro */
+    background-color: rgb(200, 200, 200);
+
+
+}
+
+.item{
+    width: 100%;                          /* 33% da largura do container */
+    display: inline-block;                /* alinha os elementos em linha */
+
+}
+
+.item img{
+    width: 16%;                           /* altura automática */
+}
+
+.item p{
+    text-align: rigth;
+    display: inline-block;
+    background-color: blueviolet;
+}
+
+
+.last{
+    margin-right: 0;                      /* remove a margem direita */
+}
