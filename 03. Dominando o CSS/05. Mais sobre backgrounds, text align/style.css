@@ -6,7 +6,7 @@ html, body{
     height: 100%;
 }
 
-.bg{    
+/*.bg{    
     /*width: 100%;                            /* 100% da largura da tela */
     /*height: 30vh;                           /* 30% da altura da tela */
     /*margin: 0 auto;                         /* centraliza */
@@ -15,9 +15,8 @@ html, body{
     /*background-size: cover;                 /* cobre todo o espaço */
     /*background-repeat: no-repeat;           /* não repete a imagem */
     /*background-position: center;            /* centraliza a imagem */
-    /*background-attachment: fixed;           /* fixa a imagem no lugar */
+    /*background-attachment: fixed;           /* fixa a imagem no lugar }*/
 
-}
 
 .box{
     width: 100%;
