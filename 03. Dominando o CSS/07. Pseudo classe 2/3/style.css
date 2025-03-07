@@ -1,0 +1,58 @@
+
+.box{
+    width: 100%;
+}
+
+.item{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    background-color: red;
+    border: solid 1px black;
+}
+
+
+
+
+.box div:last-of-type{      /*Selecionando o ultimo elemento do mesmo tipo*/
+    background-color: green;
+}
+
+.box p:last-of-type{        /*Selecionando o ultimo elemento do mesmo tipo*/
+    background-color: blueviolet;
+}
+
+.box p:not(.one){              /*Seleciona todos os elementos dentro da .box cuja classe seja .one que nao seja a primeira*/
+    background-color: gold;
+}
+
+
+
+
+
+p::after{       /*insere o conteudo do content depois do paragrafo*/
+    content: ' joaozinho ';
+    background-color: blue;
+}
+p::before{      /*insere o conteudo do content antes do paragrafo*/
+    content: ' joaozinho ';
+    background-color: green;
+}
+
+
+
+
+
+
+ul{
+    list-style-position: inside;
+}
+
+ul li:nth-of-type(2){       /*Seleciona o elemento com base no tipo*/
+    color: red;
+}
+
+ul li:nth-child(3){         /*seleciona o elemento de forma geral, se tiver um P dentro do HTML, ele contabiliza tambem*/
+    color: rgb(0, 47, 255);
+}
