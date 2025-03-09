@@ -1,0 +1,87 @@
+
+
+form{       /*form para estilizar o formulario*/
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+form fieldset{      /*fieldset para estilizar o formulario*/
+    padding: 40px 40px;
+    border: 1px solid #ccc;
+}
+
+
+form legend{        /*legend para estilizar o titulo do formulario*/
+    text-align: left;
+    font-size: 17px;
+    color: red;
+}
+
+form input[type="text"]{        /*input[type="text"] para estilizar o input*/
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+}
+
+form input[type="text"]:focus, form select:focus, form textarea:focus{       /*input[type="text"]:focus para estilizar o input quando ele estiver em foco*/
+    outline: 0;
+}
+
+form select{        /*select para estilizar o select*/
+    width: 80%;/*posso usar a funcao width: calc(80% mais a quantidade de pixels) para fazer calculos*/  
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 13px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+form select:hover{      /*select:hover para estilizar o select quando o mouse passar por cima*/
+    border: 0;
+}
+
+form h2{        /*h2 para estilizar o texto*/
+    margin-top: 30px;
+    color: #ccc;
+
+}
+
+.input{     /*input para estilizar o texto*/
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.input span{        /*span para estilizar o texto*/
+    margin-left: 13px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+form textarea{      /*textarea para estilizar o textarea*/
+    border: 1px solid #ccc;
+    font-family: tahoma;
+    width: 80%;
+    height: 80px;
+    margin-top: 30px;
+    padding: 10px 13px;
+    resize: none;       /*resize: none; para nao permitir que o usuario redimensione o textarea*/
+}
+
+
+
+form input[type="submit"]{      /*input[type="submit"] para estilizar o botao de enviar*/
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    border: 2px solid rbg(130, 130, 130);
+    font-size: 16px;
+    cursor: pointer;        /*cursor: pointer; para mudar o cursor do mouse*/
+    color: white;
+    background-color: rgb(140, 140, 140);
+}
